@@ -1,6 +1,12 @@
 # Unity materialFallback bug
 
+Project Setup:
+- Unity 2021.3.14f1
+- URP 12.1.8
+
 Materials without `_fallbackTestId` pass don't get into render, till manually moved in scene!
+`Ctrl+Z` also breaks filtering.
+
 ```csharp
 ShaderTagId _fallbackTestId = new ShaderTagId("FallbackTest");
 ...
