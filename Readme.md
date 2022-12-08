@@ -14,4 +14,4 @@ drawingSettings.fallbackMaterial = _fallbackMaterial;
 context.DrawRenderers(renderingData.cullResults, ref drawingSettings, ref _filteringSettings);
 ```
 
-![loading preview...](Preview/fallback-test-720p.gif)
+https://user-images.githubusercontent.com/25569360/206412849-9ecab700-f025-442c-88b4-ff2814521bd5.mp4
